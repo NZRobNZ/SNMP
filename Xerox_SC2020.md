@@ -7,7 +7,7 @@ The following OIDs work for pulling stats out of our SC2020, we use Zabbix for t
 **Cyan**
 ```
 sc2020_cyan_cap         1.3.6.1.2.1.43.11.1.1.8.1.1
-sc2020_cyan_lvl		      1.3.6.1.2.1.43.11.1.1.9.1.1
+sc2020_cyan_lvl         1.3.6.1.2.1.43.11.1.1.9.1.1
 sc2020_cyan_remain_pct	(last(sc2020_cyan_lvl)/last(sc2020_cyan_cap))*100
 ```
 **Magenta**
@@ -65,3 +65,43 @@ sc2020_waste_r5_cap           1.3.6.1.2.1.43.11.1.1.8.1.6
 sc2020_waste_r5_lvl           1.3.6.1.2.1.43.11.1.1.9.1.6
 sc2020_waste_r5_remain_pct    (last(sc2020_waste_r5_lvl)/last(sc2020_waste_r5_cap))*100
 ```
+
+## Page Counts
+
+**Page Count: Black**
+```
+sc2020_pages_bw    1.3.6.1.4.1.253.8.53.13.2.1.6.1.20.34
+```
+
+**Page Count: Colour**
+```
+sc2020_pages_col   1.3.6.1.4.1.253.8.53.13.2.1.6.1.20.33
+```
+
+**Page Count: Total**
+```
+sc2020_pages_tot    1.3.6.1.2.1.43.10.2.1.4.1.1
+```
+
+## Status
+
+**Status 01**
+```
+sc2020_status01    1.3.6.1.2.1.43.18.1.1.8.1.1
+```
+
+**Status 02**
+```
+sc2020_status02    1.3.6.1.2.1.43.18.1.1.8.1.2
+```
+
+**Status 03**
+```
+sc2020_status01    1.3.6.1.2.1.43.18.1.1.8.1.3
+```
+
+**Status 04**
+```
+sc2020_status01    1.3.6.1.2.1.43.18.1.1.8.1.4
+```
+
